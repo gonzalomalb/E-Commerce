@@ -133,7 +133,7 @@ header {
 
 @media (min-width:320px) and (max-width:768px) {
     .header_container {
-        width: 90%;
+        width: 100%;
     }
 
     .logo-search_container {
@@ -149,6 +149,10 @@ header {
         display: none;
     }
 
+    .login {
+        margin-right: 2.5rem;
+    }
+
     .login_btn {
         margin-right: 1.2rem;
         margin-left: 1.2rem;
@@ -159,7 +163,6 @@ header {
         display: inline;
         background-color: white;
         border: none;
-        margin-right: 1rem;
     }
 
     .banner_info h1 {
