@@ -1,0 +1,81 @@
+:root {
+    --raleway: 'raleway';
+    --background-white: #f5f5f5f5;
+    --font-products-blue: #2a7ae4;
+}
+
+main {
+    background-color: var(--background-white);
+}
+
+.add_container {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.add_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add_container h2 {
+    font-family: var(--raleway);
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 1.2rem;
+}
+
+.add_container textarea {
+    margin-top: 1.2rem;
+    width: 720px;
+    height: 42px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+    box-shadow: -.5px 0px 2.5px 0.5px grey;
+    resize: none;
+    font-family: var(--raleway);
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#input_description {
+    height: 74px;
+}
+
+.add_btn {
+    width: 720px;
+    height: 3.1rem;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: var(--font-products-blue);
+    color: white;
+    text-align: center;
+    border: none;
+    margin-top: 1.8rem;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .add_form {
+        align-items: center;
+    }
+
+    .add_container h2{
+        font-size: 22px;
+    }
+
+    .add_container textarea{
+        width: 220px;
+        font-size: 14px;
+    }
+
+    .add_btn {
+        width: 220px;
+    }
+}

@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/add_product.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Alua Geek</title>
 </head>
-
 <body>
     <header>
         <div class="header_container">
@@ -26,15 +24,21 @@
                     <button class="search_btn"><img src="./assets/img/Lupa.png" alt="Icono Lupa"></button>
                 </div>
             </div>
+            <div class="admin" data-admin>
+                <a href="add_product.html"><button class="btn_admin">Menu Administrador</button></a>
+            </div>
     </header>
 
     <main>
-        <section class="login_container">
-            <form class="login_form" data-form>
-                <h2>Iniciar Sesión</h2>
-                <input class="login_user" type="text" placeholder="Usuario" data-name>
-                <input class="login_password" type="text" placeholder="Contraseña" data-password>
-                <button class="login_btn" type="submit">Entrar</button>
+        <section class="add_container">
+            <form class="add_form" data-form>
+                <h2>Agregar nuevo producto</h2>
+                <textarea class="input_img" type="text" placeholder="URL de la imagen" required data-url></textarea>
+                <textarea class="input_name" type="text" placeholder="Nombre del producto" required data-name></textarea>
+                <textarea class="input_price" type="text" placeholder="Precio del producto" required data-price></textarea>
+                <textarea class="input_category" type="text" placeholder="Categoria" data-category></textarea>
+                <textarea class="input_description" id="input_description" type="text" placeholder="Descripcion del producto" data-description></textarea>
+                <button class="add_btn" type="submit" data-btn>Agregar producto</button>
             </form>
         </section>
     </main>
@@ -69,7 +73,6 @@
         </section>
     </footer>
 
-    <script type="module" src="./controllers/login-controller.js"></script>
+    <script type="module" src="./controllers/create_product-controller.js"></script>
 </body>
-
 </html>

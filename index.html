@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./products.css">
-    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/products.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
@@ -26,13 +26,15 @@
                     <button class="search_btn"><img src="./assets/img/Lupa.png" alt="Icono Lupa"></button>
                 </div>
             </div>
-            <div class="login">
-                <a href="login.html"><button class="login_btn">Login</button></a>
+            <div class="login" data-login>
+                <a href="login.html"><button class="btn_login">Login</button></a>
                 <button class="search_btn-login"><img src="./assets/img/Lupa.png"></button>
             </div>
+            <div class="hide" data-admin>
+                <a href="add_product.html"><button class="btn_admin">Menu Administrador</button></a>
+            </div>
         </div>
-        <div class="
-        banner">
+        <div class="banner">
             <div class="banner_info">
                 <h1>Promoción</h1>
                 <p>Productos seleccionados con 33% de descuento</p>
@@ -49,48 +51,8 @@
                     <a href="">Ver todo <img src="./assets/img/Flecha.png"></a>
                 </div>
 
-                <div class="category_products">
-                    <div class="card">
-                        <img src="./assets/img/Star Wars - img1.png">
-                        <h3>Producto XYZ</h3>
-                        <p>$60.00</p>
-                        <a href="">Ver producto</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./assets/img/Star Wars - img2.png">
-                        <h3>Producto XYZ</h3>
-                        <p>$60.00</p>
-                        <a href="">Ver producto</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./assets/img/Star Wars - img3.png">
-                        <h3>Producto XYZ</h3>
-                        <p>$60.00</p>
-                        <a href="">Ver producto</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./assets/img/Star Wars - img4.png">
-                        <h3>Producto XYZ</h3>
-                        <p>$60.00</p>
-                        <a href="">Ver producto</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./assets/img/Star Wars - img5.png">
-                        <h3>Producto XYZ</h3>
-                        <p>$60.00</p>
-                        <a href="">Ver producto</a>
-                    </div>
-
-                    <div class="card">
-                        <img src="./assets/img/Star Wars - img6.png">
-                        <h3>Producto XYZ</h3>
-                        <p>$60.00</p>
-                        <a href="">Ver producto</a>
-                    </div>
+                <div class="category_products" data-product>
+                    
                 </div>
             </section>
 
@@ -100,7 +62,7 @@
                     <a href="">Ver todo <img src="./assets/img/Flecha.png"></a>
                 </div>
 
-                <div class="category_products">
+                <div class="category_products" data-product>
                     <div class="card">
                         <img src="./assets/img/Consolas - img1.png">
                         <h3>Producto XYZ</h3>
@@ -151,7 +113,7 @@
                     <a href="">Ver todo <img src="./assets/img/Flecha.png"></a>
                 </div>
 
-                <div class="category_products">
+                <div class="category_products" data-product>
                     <div class="card">
                         <img src="./assets/img/Diversos - img1.png">
                         <h3>Producto XYZ</h3>
@@ -227,6 +189,8 @@
                     src="./assets/img/GitHub_Logo.png" alt="GitHub logo"></a>
         </section>
     </footer>
+    <script type="module" src="./controllers/user-controller.js"></script>
+    <script type="module" src="./controllers/products-controller.js"></script>
 </body>
 
 </html>

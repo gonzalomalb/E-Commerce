@@ -1,0 +1,59 @@
+{
+  "usuario": [
+    {
+      "name": "",
+      "password": "",
+      "id": 1
+    }
+  ],
+  "productos": [
+    {
+      "name": "Stormtrooper - Mask - Mini",
+      "imgUrl": "./assets/img/Star Wars - img1.png",
+      "price": "44.44",
+      "description": "Miniatura máscara Stormtrooper",
+      "section": "star_wars",
+      "id": "1"
+    },
+    {
+      "name": "DarthVader - Pilot - Mini",
+      "imgUrl": "./assets/img/Star Wars - img2.png",
+      "price": "88.88",
+      "description": "Miniatura Darth Vader y Piloto",
+      "section": "star_wars",
+      "id": "2"
+    },
+    {
+      "name": "Yoda - Mini",
+      "imgUrl": "./assets/img/Star Wars - img3.png",
+      "price": "33.33",
+      "description": "Miniatura Yoda",
+      "section": "star_wars",
+      "id": "3"
+    },
+    {
+      "name": "Clone",
+      "imgUrl": "./assets/img/Star Wars - img4.png",
+      "price": "55.55",
+      "description": "Muñeco Clone",
+      "section": "star_wars",
+      "id": "4"
+    },
+    {
+      "name": "Baby Yoda - Mini",
+      "imgUrl": "./assets/img/Star Wars - img5.png",
+      "price": "23.23",
+      "description": "Baby Yoda Mini",
+      "section": "star_wars",
+      "id": "5"
+    },
+    {
+      "name": "Kylo Ren",
+      "imgUrl": "./assets/img/Star Wars - img6.png",
+      "price": "56.56",
+      "description": "Muñeco Kylo Ren",
+      "section": "star_wars",
+      "id": "6"
+    }
+  ]
+}

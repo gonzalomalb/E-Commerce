@@ -1,12 +1,12 @@
 :root {
     --raleway: 'raleway';
     --background-blue: #EAF2FD;
+    --font-products-blue: #2a7ae4;
 }
 
 footer {
     width: 100%;
     height: auto;
-    margin-top: 2.5rem;
     margin-bottom: .60rem;
     display: flex;
     flex-direction: column;

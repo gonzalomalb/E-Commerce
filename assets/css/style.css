@@ -75,9 +75,27 @@ header {
     margin-left: 3%;
 }
 
-.login_btn {
+.admin {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin-right: 15%;
+    margin-left: 3%; 
+}
+
+.btn_login {
     width: 9rem;
     height: 2.5rem;
+    font-size: 16px;
+    color: var(--font-products-blue);
+    background-color: white;
+    border: 2px solid var(--font-products-blue);
+}
+
+.btn_admin {
+    width: max-content;
+    height: 2.5rem;
+    padding: .5rem;
     font-size: 16px;
     color: var(--font-products-blue);
     background-color: white;
@@ -91,7 +109,7 @@ header {
 .banner {
     display: flex;
     flex-direction: column;
-    background-image: url(./assets/img/banner-image.png);
+    background-image: url(../img/banner-image.png);
     background-size: cover;
     background-position: center center;
     position: static;
@@ -130,6 +148,9 @@ header {
     border: none;
 }
 
+.hide {
+    display: none;
+}
 
 @media (min-width:320px) and (max-width:768px) {
     .header_container {
@@ -153,10 +174,16 @@ header {
         margin-right: 2.5rem;
     }
 
-    .login_btn {
+    .btn_login {
         margin-right: 1.2rem;
         margin-left: 1.2rem;
         width: 7.8rem;
+    }
+
+    .btn_admin {
+        margin-right: 1.2rem;
+        margin-left: 1.2rem;
+        font-size: 12px;
     }
 
     .search_btn-login {
