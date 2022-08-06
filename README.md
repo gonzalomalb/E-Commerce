@@ -13,13 +13,18 @@ El desafio es crear un E-commerce con los siguientes requisitos:
   - Un formulário de iniciar sesión para autenticar a los usuarios que quieran acceder al menu administrador. 
   - Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda.
   
-  
+
+
+
+
 *IMPORTANTE*
+
 
 Para el poder visualizar de manera correcta el proyecto:
   -Descargar el proyecto.
   -Instalar JSON server.(En una terminal: npm install -g json-server)
   -Abrir un terminal en el directorio del proyecto descargado.
   -Ejecutar el siguiente comando: json-server --watch db.json.
-  
+
+
 link: https://gonzalomalb.github.io/E-Commerce/
