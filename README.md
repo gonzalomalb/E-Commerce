@@ -15,6 +15,7 @@ El desafio es crear un E-commerce con los siguientes requisitos:
   
   
 *IMPORTANTE*
+
 Para el poder visualizar de manera correcta el proyecto:
   -Descargar el proyecto.
   -Instalar JSON server.(En una terminal: npm install -g json-server)
